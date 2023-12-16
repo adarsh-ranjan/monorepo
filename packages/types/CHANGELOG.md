@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1-beta.0](https://github.com/adarsh-ranjan/monorepo/compare/@adarsh-ranjan/types@1.2.0...@adarsh-ranjan/types@1.2.1-beta.0) (2023-12-16)
+
+
+### Bug Fixes
+
+* **types:** removed logs ([217f145](https://github.com/adarsh-ranjan/monorepo/commit/217f145591647b26a60878abe0ee741c2e841733))
+
+
+
+
+
 # [1.2.0](https://github.com/adarsh-ranjan/monorepo/compare/@adarsh-ranjan/types@1.1.0...@adarsh-ranjan/types@1.2.0) (2023-12-16)
 
 
