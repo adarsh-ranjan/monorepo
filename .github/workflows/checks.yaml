@@ -17,4 +17,20 @@ jobs: # A workflow can have multiple jobs
       uses: actions/setup-node@v3 # Public action
       with:
         node-version: '18'
+
+    - name: "Setup npm" # Add our registry to npm config
+      run: | # Custom action
+        npm set @adarsh-ranjan:registry=https://npm.pkg.github.com
+        npm set "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}"
+    - name: Install yarn
+      run: | # Install yarn
+        npm install --global yarn
+
+    - name: Install dependencies
+      run: | # Install and link dependencies
+        yarn install --force
+    
+    - name: Run tests # Run tests of all packages
+      run: npx lerna exec npm run test
+    
       
