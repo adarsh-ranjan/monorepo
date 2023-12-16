@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.3](https://github.com/adarsh-ranjan/monorepo/compare/@adarsh-ranjan/core@1.1.3-beta.0...@adarsh-ranjan/core@1.1.3) (2023-12-16)
+
+**Note:** Version bump only for package @adarsh-ranjan/core
+
+
+
+
+
 ## [1.1.3-beta.0](https://github.com/adarsh-ranjan/monorepo/compare/@adarsh-ranjan/core@1.1.2...@adarsh-ranjan/core@1.1.3-beta.0) (2023-12-16)
 
 
